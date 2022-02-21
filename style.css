@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav a {
+  padding: 1rem 2rem;
+}
+
+nav img {
+  height: 40px;
+  margin-top: 5px;
+}
+
+#search {
+  width: 500px;
+  margin: 7px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0 2rem;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0 2rem;
+}
+
+main {
+  background-color: azure;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 30%;
+  background-color: aqua;
+}
+
+section {
+  width: 70%;
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: beige;
+  text-align: center;
+  padding: 1rem;
+}
